@@ -14,4 +14,4 @@ The columns of the dataset are:
 
 Normal machine learning datasets are formed of independent incidents at each row. In this case, since the data is time-sequential, we should be extra careful not to inject future knowledge into past rows when doing the predictions. 
 
-At time series problems, we should create indicators to make future predictions. When defining the values of this indicators, we should use the past data, but only the past not the data of the day since we cannot know any value of the day upfront when we predict future data.
+At time series problems, we should create indicators to make future predictions. When defining the values of these indicators, we should use the past data, but only the past not the data of the day since we cannot know any value of the day upfront when we predict future data.
